@@ -1,0 +1,261 @@
+body {
+    color: #737171;
+}
+
+.flex-container {
+    display: flex;
+    
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 8px;
+    font-size: small;
+}
+
+.boxnav {
+    width: 1240px;
+    height: 79px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+}
+
+.flex-container >div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    margin: 8px;
+    padding: 10px;
+    height: 27px;
+
+    font-family: poppins;
+    font-size: 20px;
+}
+.log{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gradient-text1 {
+    background: linear-gradient(#444557, #444557);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text2 {
+    background-image: linear-gradient(#303ABB, #3CA5C2);
+    background-clip: text;
+    color: transparent;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    padding: 25px;
+    width: 165px;
+    
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 1px;
+    
+}
+
+.b1 {
+    width: 220px;
+    height: 56px;
+    border-radius: 6px;
+    background: linear-gradient(91.59deg, #f5f5f8 1.85%, #3CA5C2 99.69%);
+}
+
+.b2 {
+    width: 169px;
+    height: 30px;
+    border-radius: 6px;
+    background: linear-gradient(91.59deg, #444BAB 1.85%, #3CA5C2 99.69%);
+    text-align: center;
+    float: right;
+
+}
+
+.know {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 149.8%;
+    /* or 30px */
+    margin-top: 10px;
+    justify-content: end;
+    color: #444BAB;
+}
+
+.pp {
+    font-family: 'Gilroy-Bold';
+    font-size: 18.7544px;
+    line-height: 22px;
+    color: #444BAB;
+}
+
+select {
+    border: none;
+    color: inherit;
+    border-radius: 5px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.box1 {
+    position: absolute;
+    width: 635px;
+    height: 389px;
+    right: 30px;
+    background: #FFFFFF;
+    border: 1px;
+    background: linear-gradient(180deg, #5b5d82 0%, rgba(99, 167, 211, 0.265625) 73.44%, rgba(110, 200, 225, 0) 100%);
+}
+
+
+
+.form1 {
+    
+    width: 393px;
+    height: 430px;
+    margin: 5px;
+    margin-left:480px ;
+    padding-left: 18px;
+    background: #FFFFFF;
+    border: 1px solid rgba(174, 178, 203, 0.22);
+    box-shadow: 1px 0.5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    
+}
+
+.overlay {
+    z-index: -5;
+    right: 0;
+    left: 15;
+    top: 0;
+
+}
+
+.checkout {
+
+    width: auto;
+    height: 58px;
+    left: 0px;
+    margin-top: 33px;
+    text-align: center;
+    background: linear-gradient(180deg, #B0DEE7 -35.78%, rgba(176, 222, 231, 0) 174.51%);
+}
+
+.paths {
+    text-align: center;
+}
+
+.grid3 {
+    display: flex;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 285px;
+    margin-right: 280px;
+    padding: 15px;
+    width: 999px;
+
+}
+
+.boxgrid {
+    width: 300px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.flex-box1{
+    display:flex;
+    justify-content: space-evenly;
+}
+.flex-box1>div>h1{
+    font-size: 36px;
+    color:blue;
+            
+}
+.flex-box1>div>p{
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif black;
+   
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.image>img{
+    height: 280px;
+    width:400px
+}
+.text>p{
+    font-family: 'poppins';
+    font-size:medium;
+    color:black;
+}
+.text>h1{
+    font-family: 'poppins';
+    
+}
+.text>button{
+    color: black;
+    height: 45px;
+    border-color: #15e0e0;
+    border-radius: 5px;
+    font-family: 'poppins';
+}
+.info1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.image1>img{
+    height: 280px;
+    width: 400px;
+}
+.text1>p{
+    font-family: 'poppins';
+    font-size:medium;
+    color:black;
+}
+.text1>h1{
+    font-family: 'poppins';
+    
+}
+.text1>button{
+    color: black;
+    height: 45px;
+    border-color: #15e0e0;
+    border-radius: 5px;
+    font-family: 'poppins'
+}
+.gif{
+    display:flex;
+    justify-content: space-evenly;
+}
